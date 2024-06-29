@@ -65,7 +65,7 @@ ul {
   margin-left: 4px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -73,7 +73,7 @@ ul {
   margin-left: 65px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -81,7 +81,7 @@ ul {
   margin-left: 80px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -89,7 +89,7 @@ ul {
   margin-left: 25px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -97,7 +97,7 @@ ul {
   margin-left: 80px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -105,7 +105,7 @@ ul {
   margin-left: 45px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -113,7 +113,7 @@ ul {
   margin-left: 5px;
   font-size: 16px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -121,7 +121,7 @@ ul {
   margin-left: 67px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -129,7 +129,7 @@ ul {
   margin-left: 57px;
   font-size: 16px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -137,7 +137,7 @@ ul {
   margin-left: 3px;
   font-size: 16px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -145,7 +145,7 @@ ul {
   margin-left: 40px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -153,7 +153,7 @@ ul {
   margin-left: 50px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -161,7 +161,7 @@ ul {
   margin-left: 55px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -169,7 +169,7 @@ ul {
   margin-left: 15px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -177,7 +177,7 @@ ul {
   margin-left: 45px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -185,7 +185,7 @@ ul {
   margin-left: 5px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
 }
 
@@ -193,14 +193,32 @@ ul {
   margin-left: 25px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
-  margin-top: 10px;
+  color: #ffffff;
+    margin-top: 10px;
 }
 
 .h20 {
   margin-left: 40px;
   font-size: 17px;
   font-weight: 700;
-  color: black;
+  color: #ffffff;
   margin-top: 10px;
+}
+
+@media (max-width: 1000px) {
+  .mwkrivi {
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .idk2 {
+    scale: 1.25;
+  }
+
+  h3{
+    margin-top: -20px;
+  }
+  
+  
 }
