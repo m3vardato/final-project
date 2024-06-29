@@ -156,8 +156,11 @@ h6 {
 }
 
 .poto241 {
+  
   width: 400px;
   height: 60px;
+  
+
 }
 
 @media (max-width:950px) {
@@ -167,7 +170,7 @@ h6 {
 }
 
 @media (max-width:600px) {
-  .img2,.poto241 {
+  .img2, .poto241 {
   }
   .a1 {
     flex-direction: column;
