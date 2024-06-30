@@ -1,7 +1,23 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@import url("//cdn.web-fonts.ge/fonts/bpg-banner-quadrosquare/css/bpg-banner-quadrosquare.min.css");
+
 body {
   background-color: #540000;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -12,14 +28,23 @@ body {
 }
 
 .divflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 33px;
   margin-bottom: 50px;
 }
 
 li a {
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
   color: #000000;
   font-size: 20px;
   font-style: normal;
@@ -28,6 +53,8 @@ li a {
 }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 75px;
 }
@@ -44,6 +71,8 @@ ul {
 }
 @media (max-width: 700px) {
   .fa-bars {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   nav {
@@ -62,6 +91,8 @@ section {
   width: 1119px;
   height: 100%;
   background-color: rgb(107, 44, 53);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -103,45 +134,74 @@ h5 {
   color: #ffffff;
   margin-left: 10px;
   margin-top: 50px;
+  font-family: "BPG Banner QuadroSquare", sans-serif;
 }
 
 h6 {
   color: #ffffff;
   margin-left: 10px;
   margin-top: 50px;
+  font-family: "BPG Banner QuadroSquare", sans-serif;
 }
 
 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 .tavi {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin-top: 30px;
 }
 
 .potos {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
 }
 
 @media (max-width: 1178px) {
   section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     .potos {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
     }
     .div2 {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
       align-items: center;
     }
   }
 }
 
 .a1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   gap: 11px;
   margin-top: 40px;
@@ -150,6 +210,9 @@ h6 {
 
 .a1 a {
   color: red;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .h31 {
@@ -157,21 +220,42 @@ h6 {
 }
 
 .poto241 {
-  
   width: 400px;
   height: 60px;
-  
-
 }
 
-
-@media (max-width:600px) {
-  .img2, .poto241 {
+@media (max-width: 600px) {
+  .img2,
+  .poto241 {
   }
   .a1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .img1 {
- display: none;
+    display: none;
   }
+}
+
+li:hover {
+  color: white;
+  scale: 1.02;
+}
+
+li a:hover {
+  color: white;
+  scale: 1.02;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.a1 a:hover {
+  color: white;
+  scale: 1.02;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
 }

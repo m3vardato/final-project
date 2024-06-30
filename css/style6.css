@@ -1,0 +1,225 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+  background-color: #5d0000;
+}
+
+.container {
+  max-width: 1180px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.divflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 33px;
+}
+
+li a {
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  color: #000000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: normal;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 75px;
+}
+
+.fa-bars {
+  font-size: 32px;
+  display: none;
+}
+
+.book {
+  width: 75px;
+  height: 75px;
+}
+@media (max-width: 700px) {
+  .fa-bars {
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+}
+
+.bigbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(134, 53, 53);
+  border-radius: 5%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.poto101 {
+  width: 200px;
+  height: 50px;
+}
+
+.poto102 {
+  width: 100px;
+  height: 100px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+textarea {
+  border-radius: 5px;
+  width: 200px;
+  height: 150px;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+}
+
+button {
+  padding: 14px 28px;
+  border-radius: 5px;
+  background-color: white;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+button:hover {
+  scale: 1.05;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.h32 {
+  -webkit-animation: ni 5s infinite;
+  animation: ni 5s infinite;
+}
+
+@-webkit-keyframes ni {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  50% {
+    color: purple;
+  }
+
+  75% {
+    color: white;
+  }
+}
+
+@keyframes ni {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: blue;
+  }
+
+  50% {
+    color: purple;
+  }
+
+  75% {
+    color: white;
+  }
+}
+
+img:hover {
+  scale: 1.05;
+  opacity: 50%;
+}
+
+li a:hover {
+  color: white;
+  scale: 1.02;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+}
+
+@media (max-width: 1000px) {
+  .bigbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}

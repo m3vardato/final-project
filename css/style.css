@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   background-color: #5d0000;
 }
@@ -9,13 +16,23 @@ body {
 }
 
 .divflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 33px;
 }
 
 li a {
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
+  transition: 0.7s;
   color: #000000;
   font-size: 20px;
   font-style: normal;
@@ -24,6 +41,8 @@ li a {
 }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 75px;
 }
@@ -48,7 +67,10 @@ ul {
 
 .mwkrivi {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
 }
 
@@ -62,19 +84,21 @@ ul {
 }
 
 .hpir {
-  margin-left: 4px;
+  margin-left: 28px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmeo {
-  margin-left: 65px;
+  margin-left: 70px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmes {
@@ -83,46 +107,52 @@ ul {
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmeot {
-  margin-left: 25px;
+  margin-left: 40px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmex {
-  margin-left: 80px;
+  margin-left: 90px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmee {
-  margin-left: 45px;
+  margin-left: 65px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmer {
-  margin-left: 5px;
+  margin-left: 30px;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmea {
-  margin-left: 67px;
+  margin-left: 77px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmet {
@@ -131,46 +161,52 @@ ul {
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .hmeto {
-  margin-left: 3px;
+  margin-left: 30px;
   font-size: 16px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .h12 {
-  margin-left: 40px;
-  font-size: 17px;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: 10px;
-}
-
-.h13 {
   margin-left: 50px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
-.h14 {
-  margin-left: 55px;
+.h13 {
+  margin-left: 60px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
+  margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
+}
+
+.h14 {
+  margin-left: 65px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "ALK Tommaso", sans-serif;
   margin-top: 10px;
 }
 
 .h15 {
-  margin-left: 15px;
+  margin-left: 40px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .h16 {
@@ -179,22 +215,25 @@ ul {
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .h18 {
-  margin-left: 5px;
+  margin-left: 35px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
   margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .h19 {
-  margin-left: 25px;
+  margin-left: 20px;
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
-    margin-top: 10px;
+  margin-top: 10px;
+  font-family: "ALK Tommaso", sans-serif;
 }
 
 .h20 {
@@ -202,12 +241,18 @@ ul {
   font-size: 17px;
   font-weight: 700;
   color: #ffffff;
+  font-family: "ALK Tommaso", sans-serif;
   margin-top: 10px;
 }
 
 @media (max-width: 1000px) {
   .mwkrivi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 150px;
   }
@@ -216,9 +261,20 @@ ul {
     scale: 1.25;
   }
 
-  h3{
+  h3 {
     margin-top: -20px;
   }
-  
-  
+}
+
+img:hover {
+  scale: 1.05;
+  opacity: 50%;
+}
+
+li a:hover {
+  color: white;
+  scale: 1.02;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
 }

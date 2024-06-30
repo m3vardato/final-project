@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
   background-color: #5d0000;
 }
@@ -9,13 +16,22 @@ body {
 }
 
 .divflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-top: 33px;
 }
 
 li a {
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
   color: #000000;
   font-size: 20px;
   font-style: normal;
@@ -24,6 +40,8 @@ li a {
 }
 
 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 75px;
 }
@@ -44,4 +62,168 @@ ul {
   nav {
     display: none;
   }
+}
+
+.hmeo,
+.hmes,
+.hmeot,
+.hmex {
+  position: relative;
+  margin-top: -170px;
+}
+
+.mwkrivi {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.mwkrivi1 {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.mwkrivi2 {
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.poto {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  margin-left: -50px;
+}
+
+.idk2 {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hpir {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: -30px;
+  position: relative;
+  width: 200px;
+}
+
+.hpir1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -30px;
+  position: relative;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.hmeo {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: -40px;
+}
+
+.hmeo1 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: -30px;
+  position: relative;
+}
+
+.hmes {
+  margin-left: 30px;
+  margin-top: -40px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.hmes1 {
+  margin-left: 30px;
+  margin-top: -30px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  position: relative;
+  margin-left: 40px;
+}
+
+.hmeo3 {
+  margin-left: 30px;
+  margin-top: -30px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #000000;
+  position: relative;
+  margin-left: 40px;
+}
+
+@media (max-width: 1000px) {
+  .mwkrivi,
+  .mwkrivi1,
+  .mwkrivi2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .mwkrivi1,
+  .mwkrivi2 {
+    margin-top: 400px;
+  }
+
+  .idk2 {
+    scale: 1.25;
+  }
+
+  .mwkrivi,
+  .mwkrivi1,
+  .mwkrivi2 {
+    gap: 400px;
+  }
+}
+
+@media (max-width: 1240px) {
+  .mwkrivi,
+  .mwkrivi1,
+  .mwkrivi2 {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+img:hover {
+  scale: 1.05;
+  opacity: 50%;
+}
+
+li a:hover {
+  color: white;
+  scale: 1.02;
+  -webkit-transition: 0.7s;
+  -o-transition: 0.7s;
+  transition: 0.7s;
 }
