@@ -48,11 +48,12 @@ ul {
   }
   nav {
     display: none;
+    margin-right: 100px;
   }
 }
 
 .img1 {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 100px;
   width: 400px;
   height: 500px;
@@ -65,7 +66,7 @@ section {
 }
 
 .img2 {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-top: 100px;
   width: 400px;
   height: 500px;
@@ -73,20 +74,20 @@ section {
 
 h1 {
   color: #ffffff;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 50px;
   font-size: 30px;
 }
 
 h2 {
   color: #540000;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 20px;
   font-size: 17px;
 }
 
 h3 {
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 20px;
   color: #3328ce;
 }
@@ -94,19 +95,19 @@ h3 {
 h4 {
   color: #ffffff;
   font-size: 30px;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 40px;
 }
 
 h5 {
   color: #ffffff;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 50px;
 }
 
 h6 {
   color: #ffffff;
-  margin-left: 40px;
+  margin-left: 10px;
   margin-top: 50px;
 }
 
@@ -163,11 +164,6 @@ h6 {
 
 }
 
-@media (max-width:950px) {
-  .potos {
-    flex-direction: none;
-  }
-}
 
 @media (max-width:600px) {
   .img2, .poto241 {
