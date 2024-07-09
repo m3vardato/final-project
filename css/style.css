@@ -266,7 +266,7 @@ ul {
   }
 }
 
-img:hover {
+.poto:hover {
   scale: 1.05;
   opacity: 50%;
 }

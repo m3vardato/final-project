@@ -108,10 +108,7 @@ h3 {
   }
 }
 
-img:hover {
-  scale: 1.05;
-  opacity: 50%;
-}
+
 
 li a:hover {
   color: white;
